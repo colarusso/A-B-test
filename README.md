@@ -51,9 +51,9 @@ Hard-code your database credentials into the config.php file found in this plug-
 $dbh = new PDO("mysql:host=localhost;dbname=abtest", "[user]", "[password]");
 ```
 
-Upload the plug-in folder "A-B" to [yoursite]/wp-content/plugins/ and activate the "A-B" plugin as you would any other Wordpress plugin. 
+Upload the content of this repo as a folder titled "A-B" to [yoursite]/wp-content/plugins/ and activate the "A-B" plugin as you would any other Wordpress plugin. 
 
-**It is very important that you maintain the standard directory structure. If the plugin does not reside at: [yoursite]/wp-content/plugins/A-B/ it will not work.** 
+**It is very important that you maintain the standard directory structure and make use of the name "A-B." If the plugin does not reside at: [yoursite]/wp-content/plugins/A-B/ it will not work.** 
 
 
 Reviewing Your Data
